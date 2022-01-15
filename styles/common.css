@@ -3,6 +3,7 @@ body{ margin-top: 15px;
     font-family: 'Poppins', sans-serif;
     background-color:#AAAAAA;
     max-width: 1212px;
+    justify-content: center;
 }
 
 header{display: flex;
@@ -53,6 +54,7 @@ header{display: flex;
     display:grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 30px;
+    padding-bottom: 80px;
 }
 
 .items img {height: 256px;width: 290px;
@@ -69,16 +71,31 @@ header{display: flex;
     .product-price{font-size: 18px;}
 
     .rating{color: #FB8200;}
-    .no-rating{color: #FB8200;}
+    .half-star{color: #FB8200;}
 
     .item p,i{padding-left: 10px;
         }
+
+.section3{display: flex;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        padding: 10px;}
+
+.s3-div1 img{border-radius: 15px;}
+.s3-div2{width: 600px ; padding-left: 100px;}
+.s3-div1{background-color: white; }
+
+
+.footer-link{font-size: 20px;
+    background-color: white;
+    text-decoration: white;
+    padding-bottom:15px;}
     
 footer{
-    background-color:#0D0D0D;
+    background-color:white;
     margin: 0;
     padding: 15px;
-    color: white;
+    color: chocolate;
     text-align: center;
 
 }
