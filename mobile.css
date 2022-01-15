@@ -1,0 +1,15 @@
+@media only screen and (max-width: 688px){
+    .menu{display: flex;
+        justify-content: center;
+    align-items: center;}
+    .section1 img{display: none;}
+    .items{display: grid;
+    grid-template-columns: repeat(1,1fr)
+    
+}
+section3 img{display: none;}
+
+h1{display: none;}
+
+}
+    
